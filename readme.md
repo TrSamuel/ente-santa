@@ -46,7 +46,7 @@ Perfect for spreading Christmas joy in December 2025!
 
 *(Replace these placeholders with actual screenshots when submitting)*
 
-![1]('/screenshots/Screenshot 2025-12-28 162405.png')
+![Santa Flying](screenshots/Screenshot 2025-12-28 162405.png)
 
 
 
