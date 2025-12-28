@@ -44,11 +44,10 @@ Perfect for spreading Christmas joy in December 2025!
 
 ## 📸 Screenshots
 
-*(Replace these placeholders with actual screenshots when submitting)*
 
 ![Santa Flying](screenshots/Screenshot 2025-12-28 162405.png)
 
-
+<img src='/screenshots/Screenshot 2025-12-28 162405.png'>
 
 
 ## 🎁 Final Note
