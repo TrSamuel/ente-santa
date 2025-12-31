@@ -108,10 +108,14 @@
             background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://img.freepik.com/free-psd/modern-abstract-deep-blue-gradient-background_84443-3768.jpg') center/cover no-repeat;
         }
 
+<<<<<<< HEAD
         .home-content h1 {
             font-size: 4rem;
             margin-bottom: 1rem;
         }
+=======
+<!-- <img src='/screenshots/Screenshot 2025-12-28 162405.png'> -->
+>>>>>>> 92a252e8f1c2ac5ca3e2b514238bd4005b3d07ef
 
         .home-content span {
             color: var(--accent);
