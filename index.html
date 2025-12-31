@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet-geosearch@3.0.0/dist/geosearch.css" />
   <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
   <style>
+
     body {
       margin: 0;
       font-family: 'Comic Sans MS', cursive;
@@ -228,6 +229,113 @@
       line-height: 1.3;
       word-wrap: break-word;
     }
+
+    /* ===========================
+   RESPONSIVE DESIGN ADD-ON
+   =========================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .dashboard {
+    width: 300px;
+    padding: 15px;
+  }
+
+  .chat-container {
+    width: 320px;
+  }
+
+  .header {
+    font-size: 2em;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  body {
+    overflow-y: auto;
+  }
+
+  .header {
+    font-size: 1.6em;
+    padding: 0 10px;
+  }
+
+  .dashboard {
+    position: relative;
+    width: 95%;
+    margin: 10px auto;
+    left: auto;
+    top: auto;
+  }
+
+  .chat-container {
+    position: relative;
+    width: 95%;
+    height: 300px;
+    margin: 15px auto;
+    right: auto;
+    top: auto;
+  }
+
+  .input-box {
+    position: relative;
+    width: 95%;
+    padding: 20px;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    margin: 20px auto;
+  }
+
+  .input-box input {
+    width: 90%;
+    font-size: 1.2em;
+  }
+
+  .input-box button {
+    width: 90%;
+    font-size: 1.2em;
+  }
+
+  .progress-container {
+    height: 35px;
+  }
+
+  .progress {
+    line-height: 35px;
+    font-size: 1.1em;
+  }
+
+  .eta-display {
+    font-size: 1.3em;
+  }
+}
+
+/* Very Small Phones */
+@media (max-width: 480px) {
+  .header {
+    font-size: 1.3em;
+  }
+
+  .dashboard h2,
+  .chat-container h2 {
+    font-size: 1.2em;
+  }
+
+  .chat-message {
+    font-size: 1em;
+  }
+
+  .gift-emoji {
+    font-size: 90px;
+  }
+
+  .gift-text {
+    font-size: 1.2em;
+  }
+}
+
   </style>
 </head>
 
